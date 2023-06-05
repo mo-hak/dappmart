@@ -1,0 +1,32 @@
+.form-container {
+    width: 300px;
+    margin: auto;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #392fb9;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  
